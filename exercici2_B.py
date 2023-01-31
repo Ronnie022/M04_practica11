@@ -1,10 +1,10 @@
-#Una funció on demanarà a l’usuari que indiqui un número i aquest li indicarà si és parell o senar.
-def numbers():
-    valor = int(input('Indica un numero: '))
-    if
+#Una función donde pide al usuario que diga un número y le indicarà si és par o impar.
+def numero():
+    num = int(input('Indica un numero: '))
+    if num%2==0:
+        print("Es un numero par" .format(num=num))
+    else:
+        print("Es un numero impar" .format(num=num))
 
 
-
-
-
-numbers()
+numero()
